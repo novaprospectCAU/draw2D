@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+  background-color: aqua;
+}
+
+.mainCanvas {
+  flex-grow: 7;
+  background-color: lightcoral;
+}
+
+.rightSideBar {
+  display: none;
+  flex-grow: 1;
+  background-color: lightseagreen;
+}
